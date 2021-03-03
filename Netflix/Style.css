@@ -1,0 +1,95 @@
+
+body, html{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0, 0.7), rgba(0, 0, 0, 0.4)), url(Netflix-Background.jpg);
+}
+
+
+
+.logo{
+   height: 200px;
+   padding: 0;
+   position: relative;
+   margin-top: -20px;
+   margin-left: -10xp;
+}
+
+.navigation{
+    margin: 0; 
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .navigation li{
+      list-style: none;
+  }
+.Login{
+    border-radius: 7px;
+    width: 80px;
+    height: 34px;
+    background-color: #E50914;
+    color: #FFFFD9;
+    font-family: Arial;
+}
+.select{
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffff;
+    font-family: Arial;
+}
+.menu{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-right: 3rem;
+}
+h1{
+    color:#ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 7rem;;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    
+    
+}
+
+p{
+    color:#ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+.assinatura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submit{
+    width: 80px;
+    height: 34px;
+    background-color: #E50914;
+    color: #FFFFD9;
+    font-family: Arial;
+    
+}
+.assinatura input{
+    height: 63px;
+    width: 50rem;
+    
+}
+.assinatura button{
+    height: 68px;
+}
+
